@@ -38,7 +38,7 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-  let arr = [];
+  const arr = [];
   let i = 0;
 
   while (i != expr.length) {
